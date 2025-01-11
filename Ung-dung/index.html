@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Quản Lí Nhân Viên</h1>
+<form id="employeeForm">
+    <div>
+        <label for="name">Tên Nhân Viên </label>
+        <input type="text" name="name" id="name" required>
+    </div>
+    <div>
+        <label for="code">Mã Nhân Viên</label>
+        <input type="text" name="code" id="code" style="margin-left: 4px;" required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div>
+        <label for="telephone">Số Điện Thoại</label>
+        <input type="telephone" name="telephone" id="telephone" pattern="[0-9]+" required >
+    </div>
+    <div>
+        <button type="button" onclick="save()">Lưu</button>
+    </div>
+    <table  border="1px" style="border-collapse: collapse;">
+        <thead>
+        <tr>
+            <th>STT</th>
+            <th>Tên Nhân Viên</th>
+            <th>Mã Nhân Viên</th>
+            <th>Email</th>
+            <th>Số Điện Thoại</th>
+            <th>Hành Động</th>
+        </tr>
+        </thead>
+        <tbody id="table"></tbody>
+    </table>
+</form>
+
+
+<script src="main.js"></script>
+</body>
+</html>
