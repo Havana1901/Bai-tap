@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9152390-cb72-4e62-a6b9-6d0dacb7139c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ung-dung/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="f9152390-cb72-4e62-a6b9-6d0dacb7139c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736583593003</updated>
-      <workItem from="1736583594122" duration="7274000" />
+      <workItem from="1736583594122" duration="7639000" />
     </task>
     <servers />
   </component>
